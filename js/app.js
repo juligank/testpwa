@@ -1,8 +1,14 @@
 
 
 // Detectar si podemos usar Service Workers
+var url = window.location.href;
+var swLocation = '/testpwa/sw.js'
+if (url.includes('localhost')){
+    swLocation =  '/sw.js';
+}
+
 if ( navigator.serviceWorker ) {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register(swLocation)
     .then(reg =>{
     //    setTimeout(()=>{
     //         reg.sync.register('posteo de gatitos');
