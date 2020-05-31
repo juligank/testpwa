@@ -1,0 +1,23 @@
+{
+    "short_name": "Nuhue",
+    "name": "Nuhue",
+    "start_url": "index.html",
+    "description": "Propiedad Horizontal centrada en el usuario",
+    "background_color": "#3498db",
+    "display":"standalone",
+    "theme_color": "#3498db",
+    "orientation": "portrait",
+
+    "icons": [
+        {
+            "src": "img/icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "img/icons/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
