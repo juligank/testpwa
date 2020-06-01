@@ -1,3 +1,3 @@
-# Chat de Héroes
+# test
 
-Un cascarón de chat usando jQuery para PWAs
+Un cascarón para PWAs
